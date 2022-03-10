@@ -1,8 +1,8 @@
 FROM frolvlad/alpine-glibc:latest
 
-MAINTAINER Daniel Widerin <daniel@widerin.net>
+MAINTAINER Tiger Kaovilai <tkaovila@redhat.com>
 
-ARG OC_VERSION=4.5
+ARG OC_VERSION=4.9
 ARG BUILD_DEPS='tar gzip'
 ARG RUN_DEPS='curl ca-certificates gettext'
 
